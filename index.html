@@ -26,7 +26,8 @@
                     </ul>
             </nav>    
         </header>
-        <main>
+        <!-- Наполнение CV-->
+        <main class="main-container">
             <div class="profil">
                 <img class="avatar" src="assets/img/avatar.png" alt="avatar">
                 <div class="profil-text">
@@ -43,14 +44,14 @@
                         <li class="cont-item"><a class="cont-link" href="https://discordapp.com/users/jonathanssmall1308693897286914120/" target="_blank">Discord</a></li>
                     </ul>
             </div>
-            <div class="about-me">
+            <div class="about-me" id="About me">
                 <h2>About me</h2>
                  <div class="text-me">
                     <p>I am goal-oriented, communicative, stress-resistant, and a quick learner. I like to learn new things every day.</p>
                     <blockquote><p>"Keep learning and you will succeed."</p></blockquote>
                  </div>
             </div>
-            <div class="skills">    
+            <div class="skills" id="Skills">    
                 <h2>Skills</h2>
                     <ul class="skills-list">
                         <li class="skills-item">HTML, CSS</li>
@@ -58,31 +59,31 @@
                         <li class="skills-item">Git/GitHub</li>
                     </ul>
             </div>
-            <div class="example">
+            <div class="example" id="Example code">
                 <h2>Example code</h2>
-            </div>
-            <div class="code">
-                if (account.username === username && === password)<br>
-                console.log("Hello user")
+                <div class="code">
+                    <code>if (account.username === username && === password)<br>
+                    console.log("Hello user")</code>
+                </div>
             </div>
             <div class="education" id="Education">
                 <h2>Education</h2>
                     <ul class="edu-list">  
                         <li>Belarussian National Technical University:
-                            <ul>
+                            <ul class="edu-item">
                                 <li>engineer technologist</li>
                                 <li>mechanical engineering</li>
                             </ul>
                     </li>
                     </ul>
             </div>
-            <div>
+            <div class="exper" id="Experience">
                 <h2>Experience</h2>
                 <p>Started my education at RS School</p>
             </div>
             <dvi class="lang" id="Languages">
                 <h2>Languages</h2>
-                    <ul>
+                    <ul class="lang-list">
                         <li>Russian - native speaker.</li>
                         <li>English - A2.</li>
                     </ul>
@@ -92,9 +93,9 @@
         <!--Подвал с лого-->
         <footer>
             <div class="footer">
-                <a class="footer-logo" href="https://rs.school/" target="_blank" alt="rs.school"><img class="foter-logo" 
-                    src="assets/img/rs-school-logo.svg" alt="rs-school-logo">
-            </div></a>
+                <a class="footer-logo" href="https://rs.school/" target="_blank" alt="rs.school">
+                    <img class="footer-logo" src="assets/img/rs-school-logo.svg" alt="rs-school-logo"></a>
+            </div>
         </footer>
     </div>
 </body>

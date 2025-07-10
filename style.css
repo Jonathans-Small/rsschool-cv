@@ -213,18 +213,24 @@ footer {
     position: static;
     display: flex;
     height: 80px;
-    /* width: 100%; */
     margin: 20px;
     align-items: center;
-    justify-content: center;
     text-align: center;
+    justify-content: space-around;
     background-color:  rgb(51, 51, 75);
     border-radius: 10px;
     box-shadow: 4px 4px 8px 0px rgba(100, 100, 100, 0.5);
-    padding: 5px 0;
+    padding: 10px;
+    font-size: 18px;  
 }
 .footer-logo {
-    width: 50%;
-    background-color: yellow;
+    height: 40px;
     border-radius: 10px;
+}
+.footer p {
+    color:  rgb(175, 173, 173);
+}
+.git-logo {
+    height: 40px;
+    filter: invert(1);
 }
